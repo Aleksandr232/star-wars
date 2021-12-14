@@ -10,7 +10,7 @@ export default class PersonDetails extends Component {
   swapiService = new SwapiService();
 
   state = {
-    person: null
+    person: {}
   };
 
   componentDidMount() {

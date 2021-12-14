@@ -10,7 +10,7 @@ export default class ShipDetails extends Component {
   swapiService = new SwapiService();
 
   state = {
-    starship: null
+    starship: {}
   };
 
   componentDidMount() {

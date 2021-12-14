@@ -36,7 +36,7 @@ export default class StarshipPage extends Component {
 
     const shipDetails = (
       <ErrorBoundry>
-        <ShipDetails starshipid={this.state.selectedStarship} />
+        <ShipDetails starshipId={this.state.selectedStarship} />
       </ErrorBoundry>
     );
 

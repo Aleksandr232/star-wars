@@ -5,7 +5,7 @@ import RandomPlanet from '../random-planet';
 import ErrorButton from '../error-button';
 import PeoplePage from '../people-page';
 import ErrorBoundry from "../error-boundry";
-import StarshipPage from '../starship-page'; 
+import StarshipPage from '../starship-page';  
 
 import './app.css';
 
@@ -45,7 +45,7 @@ export default class App extends Component {
           </div>
 
           <PeoplePage />
-           <StarshipPage/> 
+          <StarshipPage/> 
 
         </div>
       </ErrorBoundry>
